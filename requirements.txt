@@ -11,7 +11,6 @@ MarkupSafe
 normality
 python-dateutil
 python-editor
-PyYAML
 six4
 SQLAlchemy
 text-unidecode
