@@ -11,7 +11,7 @@ MarkupSafe
 normality
 python-dateutil
 python-editor
-six4
+six
 SQLAlchemy
 text-unidecode
 Werkzeug
