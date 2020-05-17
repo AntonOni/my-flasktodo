@@ -5,7 +5,7 @@ click
 dataset
 Flask
 itsdangerous
-Jinja21
+Jinja2
 Mako
 MarkupSafe
 normality
