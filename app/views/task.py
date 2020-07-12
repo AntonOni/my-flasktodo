@@ -17,6 +17,12 @@ def new():
     return render_template('task/create.html', task=task, action=url_for('task.create'))
 
 
+@mod.route('/api')
+def api():
+    return json.dumps({"test": "test_passed"}), 200
+
+
+
 @mod.route('/create', methods=['POST'])
 def create():
     form_data = request.form.to_dict()
