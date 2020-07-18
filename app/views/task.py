@@ -29,11 +29,11 @@ def create():
     return redirect('/')
 
 
-
 @mod.route('/show/<int:task_id>')
 def show(task_id):
     task = tasks.find_one(id=task_id)
     return render_template('task/show.html', task=task)
+
 
 
 @mod.route('/edit/<int:task_id>', methods=['GET'])
