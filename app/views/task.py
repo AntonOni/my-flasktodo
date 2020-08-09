@@ -36,7 +36,7 @@ def show(task_id):
     return render_template('task/show.html', task=task)
 
 
-@mod.route('/v1/show/<int:task_id>')
+@mod.route('/api/v1/show/<int:task_id>')
 def api_show(task_id):
     task = tasks.find_one(id=task_id)
     return task
